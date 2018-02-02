@@ -2,12 +2,12 @@ import firebase from 'firebase'
 import 'firebase/firestore'
 
 var config = {
-    apiKey: "AIzaSyDABEQtiBIe-YxzOytpdH9fDOGzT7n9GNM",
-    authDomain: "bookstore-d62b0.firebaseapp.com",
-    databaseURL: "https://bookstore-d62b0.firebaseio.com",
-    projectId: "bookstore-d62b0",
-    storageBucket: "bookstore-d62b0.appspot.com",
-    messagingSenderId: "547907472068"
+  apiKey: "AIzaSyBJGoBrFA1OOQUWnfp6zsScNNMP0EZWKD4",
+  authDomain: "counter-f49eb.firebaseapp.com",
+  databaseURL: "https://counter-f49eb.firebaseio.com",
+  projectId: "counter-f49eb",
+  storageBucket: "counter-f49eb.appspot.com",
+  messagingSenderId: "724481990034"
   };
 
   firebase.initializeApp(config);

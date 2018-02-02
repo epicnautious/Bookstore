@@ -12,8 +12,9 @@ class CounterList extends Component {
   }
   componentDidMount(){
     let self = this;
-    db.collection('counter').get().then( snapshot => {
+    db.collection('Counter').get().then( snapshot => {
       let counters = _.map(snapshot.docs, doc => ({id: doc.id, ...doc.data()}))
+      console.log(counters)
       self.setState({counters})
     })
   }
